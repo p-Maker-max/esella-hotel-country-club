@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>HOME | ESELLA HOTEL & COUNTRY CLUB</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="images/png" href="images/LOGO2.jpg">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/wedding.css">
+    <link rel="stylesheet" href="style/facilities.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/home.css">
+</head>
+
+    <style>
+        .navbar {
+	padding-top: 6%;
+	display: flex;
+	justify-content: center;
+    position: absolute;
+    z-index: 50;
+    width: 80%;
+    margin-left: 8%;
+}
+  
+  nav ul li a, .dropbtn {
+    z-index: 50;
+  }
+
+.nav-head {
+  z-index: -1;
+}
+    </style>
+
+</head>
+
+<body style="background-color: beige;">
+    
+    <div class="slideshow-container">
+
+        <div class="navbar">
+            <div class="nav-logo">
+                <img src="images/LOGO2.jpg" alt="Logo">
+            </div>
+            <div class="nav-content">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="facilities.html">facilities</a></li>
+                        <li class="dropdown">
+                            <a href="our_rooms.html" class="dropbtn">rooms</a>
+                            <div class="dropdown-content">
+                                <a href="our_rooms.html#twin">deluxe twin</a>
+                                <a href="our_rooms.html#double">deluxe double</a>
+                                <a href="our_rooms.html#executive">executive suite</a>
+                                <a href="our_rooms.html#balcony">deluxe double</a>
+                                <a href="our_rooms.html#one">more rooms</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="dining.html" class="dropbtn">dining</a>
+                            <div class="dropdown-content">
+                                <a href="dining.html#ngeye">ngeye restaurant</a>
+                                <a href="dining.html#elgon">elgon restaurant</a>
+                                <a href="dining.html#palm">palm garden restaurant</a>
+                                <a href="dining.html#bakery">bakery</a>
+                                <a href="dining.html#cafe">social cafe</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="wedding.html" class="dropbtn">weddings</a>
+                            <div class="dropdown-content">
+                                <a href="wedding.html#nile">nile hall venue</a>
+                                <a href="wedding.html#kibs">kibs venue</a>
+                                <a href="wedding.html#swimming">swimming pool venue</a>
+                            </div>
+                        </li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
+    
+        </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="images/770x4221638536658suite.jpg" style="width:100%">
+      <div class="text">
+        <h5>most</h5> <br>
+        <h1>amazing</h1> <br>
+        <h5>view in town</h5> <br>
+      </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="images/wallpaperflare.com.jpg" style="width:100%">
+      <div class="text">
+        <h5>each room is</h5> <br>
+        <h1>unique</h1> <br>
+        <h5>just like you</h5> <br>
+      </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/wallpaperflare.com_wallpaper.jpg" style="width:100%">
+      <div class="text">
+        <h5>giving you</h5> <br>
+        <h1>professional</h1> <br>
+        <h5>services 24/7</h5> <br>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="images/370x2401551457878IMG_0256.jpg" style="width:100%">
+        <div class="text">
+          <h5>organised</h5> <br>
+          <h1>weddings only</h1> <br>
+          <h5>found here</h5> <br>
+        </div>
+      </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }
+    </script>
+
+    <div class="home">
+        <h1></h1>
+        <img src="images/icon-accmod.png" alt="icon">
+        <p>All rooms are fully equipped with an individually controlled air condition system, attached with a full private bathroom, a balcony overseeing the spectacular view, satellite television, fridge, wire and wireless internet access. With 253 rooms comprising of 5 suites, 103 deluxe rooms and 117 twin bed rooms and 28 Apartments, offering splendid views..</p>
+    </div>
+
+    <div class="home-1">
+
+        <div class="home-2">
+            <img src="images/770x4221551457878IMG_0256.jpg" alt="image">
+            <div class="home-3">
+                <h2>Deluxe Twin</h2>
+            </div>
+        </div>
+
+        <div class="home-2">
+            <img src="images/770x4221638536658suite.jpg" alt="image">
+            <div class="home-3">
+                <h2>Deluxe Double</h2>
+            </div>
+        </div>
+
+        <div class="home-2">
+            <img src="images/ex2.jpg" alt="image">
+            <div class="home-3">
+                <h2>Executive Siute</h2>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="dining">
+
+        <div class="dine">
+            <img src="images/coffee.jpg" alt="Elgon">
+        </div>
+
+        <div class="dine-1">
+            <h1>DINING</h1>
+            <img src="images/icon-accmod.png" alt="">
+            <p>suxe Restaurant is located inside the lobby, our coffee shop serves hot & delicious breakfast early in the morning for our customers. Enhanced by the legendary and famous Uganda Local coffee Beans, the Coffee Shop will take you through a journey of magical experience with different, carefully natured tastes of the finest coffee in Kampala. </p>
+        </div>
+
+    </div>
+
+    <div class="dining">
+
+        <div class="dine-1">
+            <h1>FACILITIES</h1>
+            <img src="images/icon-accmod.png" alt="">
+            <p>Esella Hotel & Country Club  is well-equipped to provide a comfortable and enjoyable stay for its guests. The hotel features an outdoor pool, fitness center, restaurant, bar, and conference facilities. Guests can also take advantage of free Wi-Fi, room service, 24-hour front desk, and complimentary parking.</p>
+        </div>
+
+        <div class="dine">
+            <img src="images/215x1421552474779Gym3.jpg" alt="Elgon">
+        </div>
+
+    </div>
+
+    <div class="dining">
+
+        <div class="dine">
+            <img src="images/ad.jpg" alt="Elgon">
+        </div>
+
+        <div class="dine-1">
+            <h1>WEDDINGS</h1>
+            <img src="images/icon-accmod.png" alt="">
+            <p>Esella Hotel & Country Club is an ideal venue for weddings and events, offering both indoor and outdoor spaces for ceremonies and receptions. The hotel provides wedding planning services, catering, and audiovisual equipment. With its beautiful surroundings and experienced staff, Esella Hotel & Country Club can help make any wedding unforgettable.</p>
+        </div>
+
+    </div>
+
+    <div class="home">
+        <h1>gallery</h1>
+        <img src="images/icon-accmod.png" alt="icon">
+        <p>A must-see for art lovers, featuring a diverse collection of works by both established and emerging artists. The gallery showcases paintings, sculptures, and other art forms from Uganda and beyond. Guests can also enjoy a drink at the gallery's bar, which offers a relaxed atmosphere to take in the artwork. Guided tours of the gallery are available, providing visitors with insight into the artists and their creations.</p>
+    </div>
+
+    <center>
+    <div class="gallery">
+
+        <div class="gal">
+            <img src="images/bar.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/coffee.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/ex.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/215x1421551459844Lobby.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/ex1.jpg" alt="image">
+        </div>
+
+    </div>
+    </center>
+
+    <center>
+    <div class="gallery">
+
+        <div class="gal">
+            <img src="images/vip.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/fam.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/zam.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/bar.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/215x1421552473549gym.jpg" alt="image">
+        </div>
+
+    </div>
+    </center>
+
+    <div class="but">
+        <button>
+            <a href="gallery.html">browse our gallery</a>
+        </button>
+    </div>
+
+    <footer>
+
+        <div class="foot">
+            <div class="foot-1">
+                <img src="images/icons8-envelope-50.png" alt="image">
+                news & offers
+            </div>
+
+            <div class="foot-2">
+                <input type="email" placeholder="Your Email..." required>
+                <button>sign up</button>
+            </div>
+
+            <div class="foot-3">
+                <img src="images/icons8-facebook-circled-50.png" alt="image">
+                <img src="images/icons8-google-50.png" alt="image">
+                <img src="images/icons8-pinterest-50.png" alt="image">
+                <img src="images/icons8-twitter-circled-50.png" alt="image">
+                <img src="images/icons8-instagram-50.png" alt="image">
+            </div>
+        </div>
+
+        <div class="foot-4">
+
+            <div class="foot-8">
+
+            </div>
+            <div class="foot-5">
+                <ul>
+                    <li> <img src="images/icons8-location-26.png" alt=""> Plot 1 Mbogo road, Off Najjera, Kira road, Namugongo-Uganda</li>
+                    <li> <img src="images/icons8-phone-26.png" alt=""> +256 414 777500</li>
+                    <li> <img src="images/icons8-mail-26.png" alt=""> Esella Hotel & Country Club @esellahotel&countryclub.com</li>
+                </ul>
+            </div>
+
+            <div class="foot-6">
+                    <h3> <a href="#">quick links</a></h3>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="our_rooms.html">rooms</a></li>
+                        <li><a href="dining.html">dining</a></li>
+                        <li><a href="facilities.html">facilities</a></li>
+                        <li><a href="wedding.html">weddings</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+            </div>
+
+                <div class="foot-7">
+                    <h3>tripadvisor</h3>
+                    <p>Now with Hotel Reviews by</p>
+                    <p><img src="images/tripadvisor.png" alt="image"></p>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="copy">
+            &#169; Esella Hotel & Country Club. All Rights Resrved
+        </div>
+
+    </footer>
+    
+</body>
+</html>
